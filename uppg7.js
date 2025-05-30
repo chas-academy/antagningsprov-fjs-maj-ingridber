@@ -10,7 +10,7 @@ function uppg7() {
       return x + y
    }
 
-   console.log(sum(5,10))
+   return sum(5,10)
    
 }
 

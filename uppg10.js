@@ -22,7 +22,7 @@ function uppg10(){
         }
     })
 
-    let returnObj = {
+    return {
         bigEven: bigEven,
         smallOdd: smallOdd,
         other: other

@@ -9,10 +9,11 @@ function uppg4() {
     let person = {
       name: "Ingrid",
       age: 25
+    }
         
     console.log(person.age)
     }
 
-
+  
 
 module.exports = { uppg4 };
