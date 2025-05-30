@@ -8,7 +8,21 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
-  
+    
+    let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 21, 33, 34, 47.5]
+
+    function sort(lst) {
+        lst.forEach(number => {
+            if (number % 2 === 0){
+                console.log(number + ": jämt")
+            } else {
+                console.log(number + ": udda")
+            }
+        });
+    }
+
+    sort(numbers)
+
 }
 
 module.exports = { uppg9 };
