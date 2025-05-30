@@ -28,36 +28,6 @@ function uppg10(){
         other: other
     }
     
-  /*
---- ALTERNATIVT --- 
-
-const numbers = [5, 12, 7, 10, 20, 9, 11]
-
-function sortNum(lst){
-
-    let bigEven = []
-    let smallOdd = []
-    let other = []
-
-
-    lst.forEach(number => {
-        if (number > 10 && number % 2 === 0) {
-            bigEven.push(number)
-        } else if (number < 10 && number % 2 != 0) {
-            smallOdd.push(number)
-        } else {
-            other.push(number)
-        }
-    })
-
-    return {
-        bigEven: bigEven,
-        smallOdd: smallOdd,
-        other: other
-    }
-}
-*/
-    
   }
   
   module.exports = { uppg10 };

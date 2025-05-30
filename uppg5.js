@@ -13,19 +13,6 @@ function uppg5() {
     } else {
         console.log("Det andra talet är större än det första")
     }
-
-    /* 
-    --- ALTERNATIVT ---
-
-    function uppg5b(x, y) {
-    if ( x > y) {
-        console.log("Det första talet är större än det andra")
-    } else {
-        console.log("Det andra talet är större än det första")
-    }}
-    
-    */
-    
 }
 
 

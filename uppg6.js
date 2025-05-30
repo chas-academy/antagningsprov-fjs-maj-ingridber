@@ -10,20 +10,6 @@ function uppg6(){
     for (let name of names){
         console.log(name)
     }
-
-
-    /*
-    --- ALTERNATIVT ---
-
-    function uppg6b(){
-
-        let names = ["Björn", "Benny", "Anni-Frid", "Agnetha"]
-
-        names.forEach(name => {
-            console.log(name)
-        })
-    }
-    */
     
 }
 

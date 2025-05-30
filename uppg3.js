@@ -11,18 +11,6 @@ function uppg3() {
     let b = 10
     sum = a + b 
     console.log(sum)
-
-    /* 
-    --- ALTERNATIVT ---
-
-    function uppg3b(a, b) {
-    sum = a + b
-    console.log(sum)
-    }
-
-    uppg3b(5,10)
-
-    */
     
 }
 
