@@ -7,8 +7,7 @@ function uppg10(){
     // smallOdd ska innehålla tal mindre än 10 och udda
     // other ska innehålla alla andra tal
     // returnera ett objekt med de tre arrayerna
-
-  let bigEven = []
+    let bigEven = []
     let smallOdd = []
     let other = []
 
